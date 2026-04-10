@@ -17,18 +17,6 @@ todo-app/
     ├── todo.go
     └── todo_test.go
 ```
-
----
-
-## Prerequisites
-
-| Tool    | Minimum version | Download                       |
-| ------- | --------------- | ------------------------------ |
-| Go      | 1.21            | https://go.dev/dl/             |
-| VS Code | any             | https://code.visualstudio.com/ |
-
-> **Tip (VS Code):** Install the official **Go** extension (`golang.go`) for IntelliSense, formatting, and test integration.
-
 ---
 
 ## Running the Server
