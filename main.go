@@ -18,7 +18,6 @@ func main() {
 
 	addr := ":8080"
 	fmt.Printf("To-Do API server running on http://localhost%s\n", addr)
-	fmt.Println("Press Ctrl+C to stop.")
 
 	if err := http.ListenAndServe(addr, mux); err != nil {
 		log.Fatalf("server error: %v", err)
